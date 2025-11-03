@@ -31,6 +31,7 @@ if(isset($_POST['add_product'])){
 <h2>Add Product </h2>
 <form method="POST">
     Product Name: <input type="text" name="product_name" required><br><br>
+    Open access: <input type="radio" name="open access" required><br><br>
     Category: <input type="text" name="category" required><br><br>
     Quantity: <input type="number" name="quantity" required><br><br>
     Price: <input type="number" step="0.01" name="price" required><br><br>
